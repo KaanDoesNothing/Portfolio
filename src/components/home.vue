@@ -90,7 +90,7 @@
         <div class="flex flex-col mt-3">
           <label class="text-xl font-mono">Let me quickly introduce myself!</label>
           <label>My name is Kaan, I'm 18 years old and live in The Netherlands</label>
-          <label>I love to workout and work on projects in my free time</label>
+          <label>I love to workout and work on projects in my spare time</label>
           <label>Feel free to take a look around!</label>
         </div>
       </div>
