@@ -66,7 +66,7 @@
 <template>
   <div>
     <div class="h-100 bg-gray-700">
-      <div class="flex flex-col justify-center items-center h-100 text-white text-center">
+      <div class="flex flex-col justify-center items-center h-100 text-white text-center p-5">
         <label class="text-4xl font-mono">Welcome to my Portfolio</label>
         <label class="font-mono">Made with <font-awesome-icon icon="fa-solid fa-heart" /> By Kaan</label>
 
