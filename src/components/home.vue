@@ -92,135 +92,142 @@
         </div>
       </div>
     </div>
-      <!-- <div>
-        <div class="text-center">
-          <h1 class="text-4xl font-mono">Information</h1>
-        </div>
-      </div> -->
 
-      <div class="p-10 flex justify-center align-center">
-        <UICard title="Studies" width="w-90">
+    <div class="mt-5">
+      <div class="text-center">
+        <h1 class="text-4xl font-mono">Information</h1>
+      </div>
+    </div>
+
+    <div class="p-10 flex justify-center align-center">
+      <UICard title="Studies" width="w-90">
+        <div class="flex flex-col">
+          <label>MBO 1 At ROC Op Maat West 2021 - 2022</label>
+        </div>
+      </UICard>
+    </div>
+    
+    <div class="mt-10">
+      <div class="text-center">
+        <h1 class="text-4xl font-mono">Experience</h1>
+      </div>
+    </div>
+
+    <div class="p-10 flex justify-center">
+      <div class="grid lg:grid-cols-4 gap-4">
+        <UICard title="Languages">
           <div class="flex flex-col">
-            <label>MBO 1 At ROC Op Maat West 2021 - 2022</label>
+            <label>Typescript</label>
+            <label>Javascript</label>
+            <label>HTML</label>
+            <label>CSS</label>
+            <label>SCSS</label>
+          </div>
+        </UICard>
+
+        <UICard title="Databases">
+          <div class="flex flex-col">
+            <label>MySQL</label>
+            <label>MariaDB</label>
+            <label>MongoDB</label>
+            <label>RethinkDB</label>
+          </div>
+        </UICard>
+
+        <UICard title="UI Frameworks">
+          <div class="flex flex-col">
+            <label>Vue.js</label>
+            <label>React / Native</label>
+            <label>Svelte</label>
+            <label>Pug</label>
+            <label>EJS</label>
+            <label>Handlebars</label>
+            <label>Mustache</label>
+            <label>Electron</label>
+          </div>
+        </UICard>
+
+        <UICard title="CSS Frameworks">
+          <div class="flex flex-col">
+            <label>Tailwind</label>
+            <label>Bootstrap 4/5</label>
+            <label>Daisyui</label>
+            <label>Bulma</label>
+            <label>Quasar</label>
+            <label>Semantic UI</label>
+            <label>Fomantic UI</label>
+          </div>
+        </UICard>
+
+        <UICard title="Node.js Frameworks">
+          <div class="flex flex-col">
+            <label>Express</label>
+            <label>Koa</label>
+            <label>Polka</label>
+            <label>Next.js</label>
+            <label>Nuxt.js</label>
+            <label>Typeorm</label>
+          </div>
+        </UICard>
+
+        <UICard title="Server Technologies">
+          <div class="flex flex-col">
+            <label>Ubuntu Server</label>
+            <label>CentOS</label>
+            <label>Fedora</label>
+            <label>Manjaro</label>
+            <label>Wine</label>
+            <label>Docker</label>
+          </div>
+        </UICard>
+
+        <UICard title="CLI Tools">
+          <div class="flex flex-col">
+            <label>Git</label>
+            <label>WSL</label>
+            <label>Chocolatey</label>
+            <label>Bash</label>
+            <label>Powershell</label>
+          </div>
+        </UICard>
+
+        <UICard title="Web Automation / Scraping">
+          <div class="flex flex-col">
+            <label>Puppeteer</label>
+            <label>Playwright</label>
           </div>
         </UICard>
       </div>
+    </div>
 
-      <div class="p-10 flex justify-center">
-        <div class="grid lg:grid-cols-4 gap-4">
-          <UICard title="Languages">
-            <div class="flex flex-col">
-              <label>Typescript</label>
-              <label>Javascript</label>
-              <label>HTML</label>
-              <label>CSS</label>
-              <label>SCSS</label>
-            </div>
-          </UICard>
-
-          <UICard title="Databases">
-            <div class="flex flex-col">
-              <label>MySQL</label>
-              <label>MariaDB</label>
-              <label>MongoDB</label>
-              <label>RethinkDB</label>
-            </div>
-         </UICard>
-
-          <UICard title="UI Frameworks">
-            <div class="flex flex-col">
-              <label>Vue.js</label>
-              <label>React / Native</label>
-              <label>Svelte</label>
-              <label>Pug</label>
-              <label>EJS</label>
-              <label>Handlebars</label>
-              <label>Mustache</label>
-              <label>Electron</label>
-            </div>
-          </UICard>
-
-          <UICard title="CSS Frameworks">
-            <div class="flex flex-col">
-              <label>Tailwind</label>
-              <label>Bootstrap 4/5</label>
-              <label>Daisyui</label>
-              <label>Bulma</label>
-              <label>Quasar</label>
-              <label>Semantic UI</label>
-              <label>Fomantic UI</label>
-            </div>
-          </UICard>
-
-          <UICard title="Node.js Frameworks">
-            <div class="flex flex-col">
-              <label>Express</label>
-              <label>Koa</label>
-              <label>Polka</label>
-              <label>Next.js</label>
-              <label>Nuxt.js</label>
-              <label>Typeorm</label>
-            </div>
-          </UICard>
-
-          <UICard title="Server Technologies">
-            <div class="flex flex-col">
-              <label>Ubuntu Server</label>
-              <label>CentOS</label>
-              <label>Fedora</label>
-              <label>Manjaro</label>
-              <label>Wine</label>
-              <label>Docker</label>
-            </div>
-          </UICard>
-
-          <UICard title="CLI Tools">
-            <div class="flex flex-col">
-              <label>Git</label>
-              <label>WSL</label>
-              <label>Chocolatey</label>
-              <label>Bash</label>
-              <label>Powershell</label>
-            </div>
-          </UICard>
-
-          <UICard title="Web Automation / Scraping">
-            <div class="flex flex-col">
-              <label>Puppeteer</label>
-              <label>Playwright</label>
-            </div>
-          </UICard>
-        </div>
+    <div class="mt-10">
+      <div class="text-center">
+        <h1 class="text-4xl font-mono">Projects</h1>
       </div>
+    </div>
 
-      <div class="mt-10">
-        <div class="text-center">
-          <h1 class="text-4xl font-mono">Projects</h1>
-        </div>
-      </div>
-
-      <div class="p-10 flex justify-center">
-        <div class="grid lg:grid-cols-2 gap-4">
-          <div class="bg-gray-50 w-90" v-for="project in projects">
-            <div class="p-2 bg-gray-900 text-center">
-                <label class="text-white font-mono font-bold">{{project.name}}</label>
+    <div class="p-10 flex justify-center">
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div class="bg-gray-50 w-90" v-for="project in projects">
+          <div class="p-2 bg-gray-900 text-center">
+              <label class="text-white font-mono font-bold">{{project.name}}</label>
+          </div>
+          <div>
+            <div class="p-5 flex flex-col">
+              <label>Role: {{project.role}}</label>
+              <label>Active: {{project.active}}</label>
+              <label>Technologies: {{project.technologies.join(", ")}}</label>
             </div>
-            <div>
-              <div class="p-5 flex flex-col">
-                <label>Role: {{project.role}}</label>
-                <label>Active: {{project.active}}</label>
-                <label>Technologies: {{project.technologies.join(", ")}}</label>
-              </div>
 
-              <div class="bg-gray-900 w-90 p-1 text-white text-center align-bottom">
-                <a :href="project.links.website" class="text-white p-1 m-1 rounded">Website</a>
-                <a :href="project.links.github" class="text-white p-1 m-1 rounded">Github</a>
-              </div>
+            <div class="bg-gray-900 w-90 p-1 text-white text-center align-bottom">
+              <a :href="project.links.website" class="text-white p-1 m-1 rounded">Website</a>
+              <a :href="project.links.github" class="text-white p-1 m-1 rounded">Github</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   <!-- </div> -->
   <!-- <div class="p-5">
     <h1>Projecten</h1>
