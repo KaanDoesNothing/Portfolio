@@ -81,6 +81,9 @@
             <a class="p-2" href="https://www.npmjs.com/~kaan075">
               <font-awesome-icon icon="fa-brands fa-npm" class="h-10"/>
             </a>
+            <a class="p-2" href="https://discord.com/users/208948873433972737">
+              <font-awesome-icon icon="fa-brands fa-discord" class="h-10"/>
+            </a>
           </div>
         </div>
 
