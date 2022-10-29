@@ -65,8 +65,8 @@
 
 <template>
   <div>
-    <div class="h-80 bg-gray-700">
-      <div class="flex flex-col justify-center items-center h-80 text-white text-center">
+    <div class="h-100 bg-gray-700">
+      <div class="flex flex-col justify-center items-center h-100 text-white text-center">
         <label class="text-4xl font-mono">Welcome to my Portfolio</label>
         <label class="font-mono">Made with <font-awesome-icon icon="fa-solid fa-heart" /> By Kaan</label>
 
@@ -91,7 +91,7 @@
           <label>Feel free to take a look around!</label>
         </div>
       </div>
-
+    </div>
       <!-- <div>
         <div class="text-center">
           <h1 class="text-4xl font-mono">Information</h1>
@@ -221,7 +221,7 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
   <!-- <div class="p-5">
     <h1>Projecten</h1>
 
