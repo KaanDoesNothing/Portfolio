@@ -176,9 +176,9 @@
         <UICard title="Server Technologies">
           <div class="flex flex-col">
             <label>Ubuntu Server</label>
+            <label>Fedora Server</label>
+            <label>Debian Server</label>
             <label>CentOS</label>
-            <label>Fedora</label>
-            <label>Manjaro</label>
             <label>Wine</label>
             <label>Docker</label>
           </div>
